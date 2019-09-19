@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate ten cua lop hoc</title>
+</head>
+<body>
+<script>
+    function ValidateClass(str) {
+       let regexp = /^[CAP]+[0-9]{4}[GHIKLM]$/
+        if(regexp.test(str)){
+            return true;
+        }else {
+            return false;
+        }
+    }
+    // let str = 'C0318G';
+    // alert(ValidateClass(str));
+    // str='1234'
+    // alert(ValidateClass(str));
+</script>
+</body>
+</html>
